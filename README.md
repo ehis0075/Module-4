@@ -10,3 +10,13 @@
   that do not match a given predicate
 
 - the reduce step is just like a sequel aggregation
+
+using Optional on JDK 8:
+An Optional is a wrapper type that may be empty
+
+-How can we design an API to implement the Map/filter/reduce algorithm ?
+
+
+STREAMS API
+- its an intermediate call, defined on the Collection interface, it returns a stream which is a new interface in java 8
+ specially designed to implement the map, filter, reduce and other things too.
